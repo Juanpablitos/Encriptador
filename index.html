@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="imagenes\Logo.svg" alt="Logo de Alura" />
+      </div>
+    </header>
+    <main>
+      <section class="input-section">
+        <textarea
+          class="inputEncriptar"
+          rows="6"
+          placeholder="Ingrese el texto aqui"
+        ></textarea>
+        <section>
+          <section class="recommendation-container">
+            <div class="recommendation-img">
+              <img
+                src="imagenes\bi_exclamation-circle-fill.svg"
+                alt="imagen signo de admiracion"
+              />
+            </div>
+            <p class="recommendation-message">
+              Solo letras minúsculas y sin acentos
+            </p>
+          </section>
+          <section class="btn-section">
+            <button class="btnEncriptar">Encriptar</button>
+            <button class="btnDesencriptar">Desencriptar</button>
+          </section>
+        </section>
+      </section>
+      <section class="msj-section">
+        <section class="img-msj-encrypt-section">
+          <img
+            src="imagenes\Muñeco.svg"
+            alt="Imagen de muñeco en la sección del mensaje encriptado."
+            class="muñecoEncriptado"
+          />
+          <p class="msjEncriptado1">Ningún mensaje fue encontrado</p>
+          <p class="msjEncriptado2">
+            Ingresa el texto que desees encriptar o desencriptar.
+          </p>
+        </section>
+        <section class="msj-encrypt-section">
+          <p class="msj-encrypt"></p>
+          <button class="btn-copy">Copiar</button>
+        </section>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+  <footer><p>By Juan Pablo Rodriguez Castillo</p></footer>
+</html>
